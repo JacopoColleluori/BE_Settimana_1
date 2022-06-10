@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="294ec781-dd5a-4109-81a9-c4f777db9fcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Autofficina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Autofficina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Autofficina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Macchina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Macchina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654801744650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit progetto BackEnd settimana 1">
+      <created>1654862466754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654862466754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

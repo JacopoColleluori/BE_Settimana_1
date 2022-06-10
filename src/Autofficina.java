@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Autofficina {
@@ -66,6 +67,8 @@ public class Autofficina {
     auto[4]=auto5;
 
 
+    auto1.cambioMarcia(3);
+    auto1.cambioMarcia(3);
     //macchina piu' costosa
     infoMacchinaPiuCostosa(auto);
 

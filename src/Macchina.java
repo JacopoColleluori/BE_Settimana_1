@@ -25,7 +25,13 @@ public class Macchina {
     }
 
     public void setMotoreAcceso(boolean motoreAcceso) {
-        this.motoreAcceso = motoreAcceso;
+
+        if(this.motoreAcceso == motoreAcceso){
+            throw new RuntimeException("Non puoi accendere la macchina se essa è già accesa");
+        }
+        else{
+            this.motoreAcceso=motoreAcceso;
+        }
     }
 
     public int getMarcia() {
@@ -33,7 +39,16 @@ public class Macchina {
     }
 
     public void setMarcia(int marcia) {
-        this.marcia = marcia;
+
+        if(this.marcia == marcia){
+
+            throw new RuntimeException("Non puoi cambiare la marcia se essa non cambia");
+
+        }
+        else {
+            this.marcia=marcia;
+        }
+        ;
     }
 
     public String getNome() {
