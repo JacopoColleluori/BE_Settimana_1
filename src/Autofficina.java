@@ -1,8 +1,6 @@
-import com.sun.source.tree.NewArrayTree;
-
 import java.util.Scanner;
 
-public class Main {
+public class Autofficina {
                                                            /**METODI */
     /** Info della macchina più costosa*/
      static void infoMacchinaPiuCostosa(Macchina[]macchine){
@@ -45,7 +43,7 @@ public class Main {
         }
     }
 
-                                       /** MAIN */
+                                                       /** MAIN */
 
     public static void main(String[] args) {
         //creo l'array di macchine
